@@ -1,9 +1,10 @@
 def sum_to_k(lst, k):
-	i = 0
-	j = 1
+	i, j = 0, 1
 	while j < len(lst):
 		if lst[i] + lst[j] == k:
 			return True
+			break
 		i += 1
 		j += 1
-	return False
+	else:
+		return False
