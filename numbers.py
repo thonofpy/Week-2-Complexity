@@ -29,7 +29,7 @@ def sum_to_k(lst, k):
 	while j < len(lst):
 		if lst[i] + lst[j] == k:
 			return True
-				break
+			break
 		i += 1
 		j += 1
 	else:
